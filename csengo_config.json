@@ -1,13 +1,13 @@
 {
   "idopontok": [
     {
-      "idopont": "10:00",
-      "zene": "audio/mozart_eine_kleine_nachtmusik.mp3"
+      "idopont": "08:40",
+      "zene": "/Users/atesz7/Downloads/The Avengers - Theme Song - Gal Halperin (youtube).mp3"
     },
     {
-      "idopont": "15:30",
-      "zene": "audio/beethoven_fur_elise.mp3"
+      "idopont": "08:45",
+      "zene": "/Users/atesz7/Downloads/The Avengers - Theme Song - Gal Halperin (youtube).mp3"
     }
   ],
-  "alapZene": "audio/bach_air_on_the_g_string.mp3"
+  "alapZene": "/Users/atesz7/Downloads/The Avengers - Theme Song - Gal Halperin (youtube).mp3"
 }

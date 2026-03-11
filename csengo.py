@@ -2,7 +2,7 @@ import time
 import schedule
 import vlc
 
-from lib import csengo_json
+from osztalyok import csengo_json
 
 def schedule_actions():
 
@@ -11,7 +11,10 @@ def schedule_actions():
     konfiguracio = csengo_json.CsengoKonfiguracio.model_validate_json(tartalom)
 
   for idopont in konfiguracio.idopontok:
-    schedule.every().day.at(idopont.idopont).do(job, variable=idopont.zene)
+    schedule.every().day.at(idopont.idopont).do(\
+        job, \
+        variable=idopont.zene if idopont.zene != None else konfiguracio.alapZene\
+    )
 
   while True:
     schedule.run_pending()

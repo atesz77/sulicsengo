@@ -1,0 +1,10 @@
+networks:
+  sulicsengo_network:
+    driver: bridge
+    name: sulicsengo_network
+
+services:
+  sulicsengo:
+    image: sulicsengo:1.0
+    networks:
+      - sulicsengo_network

@@ -1,12 +1,17 @@
 {
-  "idopontok": [
-    {
-      "idopont": "08:30",
-      "zene": "/Users/atesz7/Downloads/The Avengers - Theme Song - Gal Halperin (youtube).mp3"
-    },
-    {
-      "idopont": "08:31"
-    }
-  ],
-  "alapZene": "/Users/atesz7/Downloads/The Avengers - Theme Song - Gal Halperin (youtube).mp3"
+    "idopontok": [
+        {
+            "idopont": "08:00",
+            "zene": "/Users/atesz7/Documents/dolgozat_11A_3.3.docx"
+        },
+        {
+            "idopont": "08:45",
+            "zene": null
+        },
+        {
+            "idopont": "08:55",
+            "zene": null
+        }
+    ],
+    "alapZene": "/Users/atesz7/Downloads/The Avengers - Theme Song - Gal Halperin (youtube).mp3"
 }

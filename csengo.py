@@ -21,6 +21,7 @@ def schedule_actions():
     time.sleep(5)
 
 def job(variable):
+    
     print(f"Playing: {variable}")
     player = vlc.MediaPlayer(variable)
     player.play()

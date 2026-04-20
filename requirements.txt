@@ -9,6 +9,7 @@ pydantic_core==2.41.4
 pyserial==3.5
 python-vlc==3.0.21203
 requests==2.32.3
+RPi.GPIO==0.7.1
 schedule==1.2.2
 setuptools==75.6.0
 sympy==1.13.3

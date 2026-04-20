@@ -1,8 +1,13 @@
 import time
 import schedule
 import vlc
+import RPi.GPIO as GPIO
 
 from osztalyok import csengo_json
+
+GPIO.setmode(GPIO.BOARD)
+channel = 7
+GPIO.setup(channel, GPIO.OUT)
 
 def schedule_actions():
 
@@ -21,13 +26,21 @@ def schedule_actions():
     time.sleep(5)
 
 def job(variable):
-    
+    print(f"Relay switched ON")
+    GPIO.output(channel, GPIO.HIGH)  
+    time.sleep(2)
+
     print(f"Playing: {variable}")
     player = vlc.MediaPlayer(variable)
     player.play()
     time.sleep(10)
     player.stop()
+
+    time.sleep(1)
+    GPIO.output(channel, GPIO.LOW)  
     return
 
 print("Scheduler is starting...")
 schedule_actions()
+
+GPIO.cleanup()

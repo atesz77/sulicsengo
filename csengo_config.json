@@ -2,7 +2,7 @@
     "idopontok": [
         {
             "idopont": "08:00",
-            "zene": "/Users/atesz7/Documents/dolgozat_11A_3.3.docx"
+            "zene": null
         },
         {
             "idopont": "08:45",
@@ -11,7 +11,51 @@
         {
             "idopont": "08:55",
             "zene": null
+        },
+        {
+            "idopont": "09:40",
+            "zene": null
+        },
+        {
+            "idopont": "09:50",
+            "zene": null
+        },
+        {
+            "idopont": "10:35",
+            "zene": null
+        },
+        {
+            "idopont": "10:45",
+            "zene": null
+        },
+        {
+            "idopont": "11:30",
+            "zene": null
+        },
+        {
+            "idopont": "11:50",
+            "zene": null
+        },
+        {
+            "idopont": "12:35",
+            "zene": null
+        },
+        {
+            "idopont": "12:40",
+            "zene": null
+        },
+        {
+            "idopont": "13:25",
+            "zene": null
+        },
+        {
+            "idopont": "13:30",
+            "zene": null
+        },
+        {
+            "idopont": "14:15",
+            "zene": null
         }
     ],
-    "alapZene": "/Users/atesz7/Downloads/The Avengers - Theme Song - Gal Halperin (youtube).mp3"
+    "alapZene": "/home/user1/csengok/School Bell Ringing SOUND EFFECT.mp3"
 }

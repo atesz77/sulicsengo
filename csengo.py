@@ -6,7 +6,7 @@ import RPi.GPIO as GPIO
 from osztalyok import csengo_json
 
 GPIO.setmode(GPIO.BOARD)
-channel = 7
+channel = 40
 GPIO.setup(channel, GPIO.OUT)
 
 def schedule_actions():
